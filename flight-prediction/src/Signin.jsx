@@ -46,7 +46,9 @@ function SignIn() {
   };
 
   return (
-    <div className="bg-gray-100 min-h-screen flex items-center justify-center py-10">
+    <div className="bg-gray-100
+    bg-gradient-to-r from-[#B2FEFA] to-[#0ED2F7]
+     min-h-screen flex items-center justify-center py-10">
       <div className="bg-white shadow-md rounded-lg p-8 w-full max-w-md space-y-6">
         <h1 className="text-2xl font-semibold text-center">Sign Up</h1>
         {error && <p className="text-red-500 text-sm">{error}</p>}
